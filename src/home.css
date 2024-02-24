@@ -1,0 +1,29 @@
+
+.content-project{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px; 
+}
+
+.link-project{
+  height: 42.736%;
+  width: 19.532%;
+  border-radius: 30px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+a.link-project:hover{
+  height: 56.73%;
+  width: 26.10%;
+  z-index: 10;
+  transition: 0.5s ease;
+}
+
+a.link-project:not(:hover) { 
+  transition: 0.5s ease-out;
+ }
+ 
