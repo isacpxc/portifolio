@@ -12,35 +12,35 @@ import c9img from './html.jpeg'
 function Home() {
   return (
     <div id="centerDiv">
-      <a className="link-project" href='/notready'>
+      <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c4img}')`}}></div>
       </a>
 
-      <a className="link-project" href='/notready'>
+      <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c2img}')`}}></div>
       </a>
 
-      <a className="link-project" href='/notready'>
+      <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c3img}')`}}></div>
       </a>
 
-      <a className="link-project" href='/notready'>
+      <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c9img}')`}}></div>
       </a> 
   
-      <a className="link-project" href='/notready'>
+      <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c5img}')`}}></div>
       </a>
 
-      <a className="link-project" href='/notready'>
+      <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c6img}')`}}></div>
       </a>
 
-      <a className="link-project" href='/notready'>
+      <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c8img}')`}}></div>
       </a>
 
-      <a className="link-project" href='/notready'>
+      <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c7img}')`}}></div>
       </a>
       

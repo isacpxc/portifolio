@@ -3,24 +3,36 @@ import ReactDOM from 'react-dom/client';
 import Home from './Home';
 import Sorry from './Sorry';
 import NotFound from './NotFound';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'; 
+import { createBrowserRouter, RouterProvider, createHashRouter } from 'react-router-dom'; 
 import './index.css'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/",
-    element: <Home/>,
+    path: "/*",
+    element: <Home />,
     errorElement: <NotFound />
   },
   {
     path: "/notready",
     element: <Sorry/>
-  },
-  {
-    path: "/funny",
-    element: <NotFound/>
   }
-])
+]);
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Home/>,
+//     errorElement: <NotFound />
+//   },
+//   {
+//     path: "/notready",
+//     element: <Sorry/>
+//   },
+//   {
+//     path: "/funny",
+//     element: <NotFound/>
+//   }
+// ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
