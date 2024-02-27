@@ -31,3 +31,17 @@ body{
   min-width: 617px;
   
 }
+
+#centerDivMod{
+  /* background-color: aqua; */
+  height: 65vh;
+  width: 80vw;
+  display: flex;
+  position: relative;
+  min-width: 617px;
+  flex-direction: row;
+}
+
+.box-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+}
