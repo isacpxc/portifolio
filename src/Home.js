@@ -1,5 +1,5 @@
 import './home.css'
-import c1img from './C.jpeg'
+// import c1img from './C.jpeg'
 import c2img from './JS.jpeg'
 import c3img from './PY.jpeg'
 import c4img from './aboutme.jpg'
