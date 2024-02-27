@@ -8,10 +8,13 @@ import c6img from './react.jpeg'
 import c7img from './others.jpeg'
 import c8img from './node1.jpeg'
 import c9img from './html.jpeg'
+import React from "react";
 
 function Home() {
   return (
+
     <div id="centerDiv">
+
       <a className="link-project" href='#/notready'>
         <div className='content-project' style={{backgroundImage:`url('${c4img}')`}}></div>
       </a>
