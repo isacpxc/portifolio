@@ -4,25 +4,19 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 850px){
-
-  html{
-    height: 100vh;
-  }
-
+@media screen and (max-width: 640px){
   body{
-    min-height: 100vh;
-    background-color: aquamarine;
+    background-color: pink; 
   }
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 640px){
   html{
-    height: 100vh
+    min-height: 100vh;
   }
   
   body{
-    height: 100%;
+    min-height: 100vh; 
     background-image: linear-gradient( #272755,#000000);
     display: flex;
     align-items: center;
@@ -41,10 +35,7 @@
     align-items: center;
     gap: 30px;
     position: relative;
-    min-width: 617px;
-    
+    min-width: 617px; 
   }
 }
-
-
 
