@@ -1,44 +1,77 @@
-.uniqueDiv{
-  height: 400px;
-  width: 400px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
-  animation: 2s  infinite alternate-reverse updown;
-}
-
-@keyframes updown {
-  0%{
-    transform: translateY(-20%);
-    height: 410px;
-    width: 410px;
-  }
-  100%{
-    transform: translateY(10%);
-    height: 300px;
-    width: 300px;
+@media screen and (max-width: 640px){
+  .uniqueDiv{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+    animation: 2s  infinite alternate-reverse updown;
   }
 
+  .back-link{
+    display: block;
+    position: absolute;
+    top: 300px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+  }
+
+  @keyframes updown{
+    0%{
+      transform: translateY(-20%);
+    }
+    100%{
+      transform: translateY(10%);
+    }
+  
+  }
 }
 
-.back-link{
-  display: block;
-  position: absolute;
-  top: 450px;
-  font-size: 2rem;
-  border-radius: 10px;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-decoration: none;
-  transition: 0.2s ;
+@media screen and (min-width: 640px){
+  .uniqueDiv{
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+    animation: 2s  infinite alternate-reverse updown;
+  }
+  
+  @keyframes updown {
+    0%{
+      transform: translateY(-20%);
+    }
+    100%{
+      transform: translateY(0%);
+    }
+  
+  }
+  
+  .back-link{
+    display: block;
+    position: absolute;
+    top: 450px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    transition: 0.2s ;
+  }
+  
+  .back-link:hover {
+    text-shadow: 2px 1px 2px white;
+    font-size: 2.1rem;
+  }
+  
+  .back-link:not(:hover){
+    text-shadow: 0px 0px 0px white;
+  }
+  
 }
 
-.back-link:hover {
-  text-shadow: 2px 1px 2px white;
-  font-size: 2.1rem;
-}
-
-.back-link:not(:hover){
-  text-shadow: 0px 0px 0px white;
-}
