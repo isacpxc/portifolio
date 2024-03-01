@@ -1,8 +1,9 @@
-@media screen and (max-width: 850px){
-}
+/* @media screen and (max-width: 850px){
+} */
 
-@media screen and (min-width: 850px){
+/* @media screen and (min-width: 850px){ */
   .content-project{
+    min-height: 100px;
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -29,6 +30,6 @@
   a.link-project:not(:hover) { 
     transition: 0.5s ease-out;
   }
-}
+/* } */
 
  
