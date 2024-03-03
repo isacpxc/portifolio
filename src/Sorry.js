@@ -1,5 +1,5 @@
-import sorryImg from './sorry.jpeg'
-import './sorry.css'
+import sorryImg from './img/sorry.jpeg'
+import './css/sorry.css'
 
 function Sorry() {
   return(

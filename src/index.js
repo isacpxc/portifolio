@@ -6,7 +6,7 @@ import Sorry from './Sorry';
 // import { HashRouter } from 'react-router-dom'; 
 // import { Routes, Route } from 'react-router-dom';
 import { createHashRouter } from 'react-router-dom';
-import './index.css'
+import './css/index.css'
 import { RouterProvider } from 'react-router-dom';
 
 const router = createHashRouter([
