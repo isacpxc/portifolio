@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './Home';
@@ -29,16 +30,16 @@ const router = createHashRouter([
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+=======
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+>>>>>>> main
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
-
-    {/* <HashRouter basename='/'>
-      <Routes>
-        <Route path='/' Component={Home}/>
-        <Route path='/notready' Component={Sorry}/>
-      </Routes>
-    </HashRouter> */}
+    <App />
   </React.StrictMode>
-
 );
