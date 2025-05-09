@@ -27,7 +27,7 @@ function App() {
             <a href="https://github.com/isacpxc" target="_blank">
               <FaGithub className="social-icon" />
             </a>
-            <a href="www.linkedin.com/in/isaccosta-dev" target="_blank">
+            <a href="https://linkedin.com/in/isaccosta-dev" target="_blank">
               <FaLinkedin className="social-icon" />
             </a>
             <a href="http://lattes.cnpq.br/4295799395109590" target="_blank">
